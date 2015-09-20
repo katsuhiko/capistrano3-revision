@@ -15,5 +15,5 @@ namespace :revision do
     end
   end
 
-  before 'deploy:updated', :write
+  before 'deploy:updated', :write_yml
 end
