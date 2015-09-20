@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'capistrano3-revision'
+gem 'capistrano3-revision', :git => 'https://github.com/katsuhiko/capistrano3-revision.git'
 ```
 
 And then execute:
