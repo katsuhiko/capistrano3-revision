@@ -10,7 +10,7 @@ namespace :revision do
   task :write_yml do
     on roles(fetch(:revision_roles)) do
       within release_path do
-        execute :echo, "'revision: #{fetch :current_revision}' > #{fetch(:revision_roles)}"
+        execute :echo, "'revision: #{fetch :current_revision}' > #{fetch(:revision_file)}"
       end
     end
   end
