@@ -6,11 +6,11 @@ require 'capistrano3/revision/version'
 Gem::Specification.new do |spec|
   spec.name          = "capistrano3-revision"
   spec.version       = Capistrano3::Revision::VERSION
-  spec.authors       = ["katsuhiko"]
+  spec.authors       = ["Katsuhiko Nagashima"]
   spec.email         = ["katsuhiko.nagashima@gmail.com"]
 
-  spec.summary       = %q{write current revision to file for capistrano-3.x}
-  spec.description   = %q{write current revision to file for capistrano-3.x}
+  spec.summary       = %q{Write current revision to file for capistrano-3.x}
+  spec.description   = %q{Write current revision to file for capistrano-3.x}
   spec.homepage      = "https://github.com/katsuhiko/capistrano3-revision"
   spec.license       = "MIT"
 
