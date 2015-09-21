@@ -7,7 +7,7 @@ Write current revision to file for capistrano3.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'capistrano3-revision', :git => 'https://github.com/katsuhiko/capistrano3-revision.git'
+gem 'capistrano3-revision'
 ```
 
 And then execute:
