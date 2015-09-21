@@ -1,6 +1,6 @@
 # Capistrano3::Revision
 
-Write current revision to file for capistrano3
+Write current revision to file for capistrano3.
 
 ## Installation
 
